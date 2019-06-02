@@ -4,4 +4,4 @@ The Game of Chess that you haven't played yet!, Because i haven't created it yet
 # UnderConstruction!
 
 ## Loading..
-## [##              ] 10% Done
+## [##__________________] 10% Done
