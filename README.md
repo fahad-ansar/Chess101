@@ -3,5 +3,6 @@ The Game of Chess that you haven't played yet!, Because i haven't created it yet
 
 # UnderConstruction!
 
+
 ## Loading..
-## [##__________________] 10% Done
+   [##__________________] 10% Done
