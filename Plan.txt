@@ -1,0 +1,46 @@
+https://www.chesscentral.com/pages/first-moves-in-chess/the-rules-of-chess.html
+Bright side chess video
+
+
+
+Points:
+	
+	- Indeicies would be combination of both numbers and letters
+	- There are six unique peices in chess
+		1. King   : any direction - 1 box
+		2. Queen  : any direction - any no of boxes
+		3. Rook   : all 4 directionis - any no of boxes
+		4. Bishop : diagnal directions - any no of boxes
+		5. Knight : 'L' shape movement in any direction - can jump over peices
+		6. Pawn   : forward or diagnal - first move 1 or 2 - rest of game 1
+
+	- Points:
+		1. King   : WON!
+		2. Queen  : 9 points
+		3. Rook   : 5 points
+		4. Bishop : 3.5 points
+		5. Knight : 3 points
+		6. Pawn   :  1 points
+
+	- Seqeunce:
+		1. King   :  '*K*'
+		2. Queen  :  'Q'
+		3. Rook   :  'R'
+		4. Bishop :  'B'
+		5. Knight :  'K'
+		6. Pawn   :  'P'
+
+		P	P	P	P	P	P	P	P	
+	
+		R	K	B  *K*  Q	B	K	R
+
+	- Protect the king at all cost
+	- Say checkmate when any king is about to die in the game
+	- when two pawns are infront they can do anything except they can kill anyone diagonally
+	- when a pawn reaches in kings row it can revive a peice on its place.That would be apart of 
+	  who died or who is one the board which means you have doubles of any peices other than king.
+	- Checkamte : At edge of deing 
+	- Stalemate : when there is no check mate but cant move his peice. The game.
+	- Draw : If game is stuck in forever loop on mutual descion we end the game.
+	
+
