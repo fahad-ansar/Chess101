@@ -5,4 +5,4 @@ The Game of Chess that you haven't played yet!, Because i haven't created it yet
 
 
 ## Loading..
-   [##__________________] 10% Done
+   [####________________] 20% Done
