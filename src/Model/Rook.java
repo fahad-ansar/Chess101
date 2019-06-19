@@ -5,17 +5,18 @@ import NotDecided.Move;
 import java.util.ArrayList;
 
 public class Rook implements Piece{
-
-    public String intialPos = "";
-    public String currentPos = "";
+    public final static PiecePoints killwill = PiecePoints.ROOK;
+    private String intialPos = "";
+    private String currentPos = "";
     public Team team = null;
-    public int points = 0;
+    private int points = 0;
 
+    public Rook(Team team){
+        this.team = team;
+    }
 
     @Override
-    public String getIntialPos() {
-        return intialPos;
-    }
+    public String getIntialPos() { return intialPos; }
 
     @Override
     public ArrayList<Move> getPossibleMoves() {
@@ -28,6 +29,11 @@ public class Rook implements Piece{
     }
 
     @Override
+    public void setCurrentPos(String currentPos) {
+        this.currentPos = currentPos;
+    }
+
+    @Override
     public Team getTeam() {
         return team;
     }
@@ -35,5 +41,10 @@ public class Rook implements Piece{
     @Override
     public int getPoints() {
         return points;
+    }
+
+    @Override
+    public void setPoints(int points) {
+        this.points = points;
     }
 }

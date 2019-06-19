@@ -1,11 +1,16 @@
 package Model;
 
-import java.time.Period;
 
 public abstract class Team {
-    String name = "";
-    int score = 0;
-    int turncount = 0;
+    private String name = "";
+    private int score = 0;
+    private int turncount = 0;
+    private PieceFactory pieceFactory = new PieceFactory();
+
+
+    public Piece createPiece(String piece){
+        return pieceFactory.create(piece);
+    }
 
     public String getName() {
         return name;
@@ -27,7 +32,17 @@ public abstract class Team {
         return turncount;
     }
 
-    public void setTurncount(int turncount) {
-        this.turncount = turncount;
+    public void turncountPlus() {
+        turncount += 1;
+    }
+
+    @Override
+    public String toString() {
+        return "Team{" +
+                "name='" + name + '\'' +
+                ", score=" + score +
+                ", turncount=" + turncount +
+                ", pieceFactory=" + pieceFactory +
+                '}';
     }
 }
