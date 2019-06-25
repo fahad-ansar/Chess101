@@ -11,6 +11,10 @@ public class Rook implements Piece{
     public Team team = null;
     private int points = 0;
 
+    public String getName(){
+        return team + "-Rook";
+    }
+
     public Rook(Team team){
         this.team = team;
     }

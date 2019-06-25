@@ -11,6 +11,10 @@ public class King implements Piece{
     public Team team = null;
     private int points = 0;
 
+    public String getName(){
+        return team + "-King";
+    }
+
     public King(Team team){
         this.team = team;
     }

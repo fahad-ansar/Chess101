@@ -5,6 +5,7 @@ import NotDecided.Move;
 import java.util.ArrayList;
 
 public interface Piece {
+    public String getName();
     public String getIntialPos();
     public ArrayList<Move> getPossibleMoves();
     public String getCurrentPos();

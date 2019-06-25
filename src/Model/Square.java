@@ -1,8 +1,14 @@
 package Model;
 
 public class Square {
-    boolean filled = false;
-    String color = null;
+    private boolean filled = false;
+    private String color = null;
+    Piece piece = null;
+
+
+    public void setPiece(Piece piece) {
+        this.piece = piece;
+    }
 
     public boolean isFilled() {
         return filled;

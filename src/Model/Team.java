@@ -1,15 +1,19 @@
 package Model;
 
+import java.util.ArrayList;
 
 public abstract class Team {
     private String name = "";
     private int score = 0;
     private int turncount = 0;
-    private PieceFactory pieceFactory = new PieceFactory();
+    private ArrayList<Piece> killedOponents;
 
+    public ArrayList<Piece> getKilledOponents() {
+        return killedOponents;
+    }
 
-    public Piece createPiece(String piece){
-        return pieceFactory.create(piece);
+    public void addKilledOponents(Piece killedOponent) {
+        killedOponents.add(killedOponent);
     }
 
     public String getName() {
@@ -42,7 +46,6 @@ public abstract class Team {
                 "name='" + name + '\'' +
                 ", score=" + score +
                 ", turncount=" + turncount +
-                ", pieceFactory=" + pieceFactory +
                 '}';
     }
 }

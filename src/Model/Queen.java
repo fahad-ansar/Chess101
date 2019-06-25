@@ -11,6 +11,10 @@ public class Queen implements Piece {
     public Team team = null;
     private int points = 0;
 
+    public String getName(){
+        return team + "-Queen";
+    }
+
     public Queen(Team team){
         this.team = team;
     }

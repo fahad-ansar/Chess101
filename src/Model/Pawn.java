@@ -11,6 +11,10 @@ public class Pawn implements Piece {
     public Team team = null;
     private int points = 0;
 
+    public String getName(){
+        return team + "-Pawn";
+    }
+
     public Pawn(Team team){
         this.team = team;
     }
