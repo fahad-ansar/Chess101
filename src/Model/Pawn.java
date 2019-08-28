@@ -1,20 +1,19 @@
 package Model;
 
-import NotDecided.Move;
-
-import java.util.ArrayList;
 
 public class Pawn implements Piece {
     public final static PiecePoints killwill = PiecePoints.PAWN;
     private String intialPos = "";
     private String currentPos = "";
     public Team team = null;
-    private int points = 0;
 
     public String getName(){
-        return team + "-Pawn";
+        String t = team.getName().toString();
+        return t.charAt(0)+"" + t.charAt(2) + " -Pawn ";
     }
-
+    public PiecePoints getKillwill(){
+        return killwill;
+    }
     public Pawn(Team team){
         this.team = team;
     }
@@ -22,10 +21,6 @@ public class Pawn implements Piece {
     @Override
     public String getIntialPos() { return intialPos; }
 
-    @Override
-    public ArrayList<Move> getPossibleMoves() {
-        return null;
-    }
 
     @Override
     public String getCurrentPos() {
@@ -43,12 +38,6 @@ public class Pawn implements Piece {
     }
 
     @Override
-    public int getPoints() {
-        return points;
-    }
+    public int getPoints() { return killwill.getValue(); }
 
-    @Override
-    public void setPoints(int points) {
-        this.points = points;
-    }
 }

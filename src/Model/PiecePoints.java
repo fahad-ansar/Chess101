@@ -12,4 +12,5 @@ public enum PiecePoints {
     public int getValue(){
         return value;
     }
+
 }

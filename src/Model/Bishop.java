@@ -1,19 +1,19 @@
 package Model;
 
-import NotDecided.Move;
-
-import java.util.ArrayList;
-
 public class Bishop implements Piece{
 
     public final static PiecePoints killwill = PiecePoints.BISHOP;
     private String intialPos = "";
     private String currentPos = "";
     public Team team = null;
-    private int points = 0;
 
     public String getName(){
-        return team + "-Bishop";
+        String t = team.getName();
+        return  t.charAt(0)+""+ (char)t.charAt(2) + "-Bishop";
+    }
+
+    public PiecePoints getKillwill(){
+        return killwill;
     }
 
     public Bishop(Team team){
@@ -22,11 +22,6 @@ public class Bishop implements Piece{
 
     @Override
     public String getIntialPos() { return intialPos; }
-
-    @Override
-    public ArrayList<Move> getPossibleMoves() {
-        return null;
-    }
 
     @Override
     public String getCurrentPos() {
@@ -45,11 +40,6 @@ public class Bishop implements Piece{
 
     @Override
     public int getPoints() {
-        return points;
-    }
-
-    @Override
-    public void setPoints(int points) {
-        this.points = points;
+        return killwill.getValue();
     }
 }

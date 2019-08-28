@@ -6,6 +6,7 @@ public class TeamA extends Team {
     private ArrayList<Piece> killed = new ArrayList<Piece>();
 
 
+
     public ArrayList<Piece> getKilled() {
         return killed;
     }

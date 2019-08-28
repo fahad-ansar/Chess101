@@ -1,4 +1,4 @@
-package NotDecided;
+package Model;
 
 public class GetAllMovesPre {
 }
