@@ -20,7 +20,10 @@ public class Rook implements Piece{
     }
 
     @Override
-    public String getIntialPos() { return intialPos; }
+    public int[] getIntialPos() { int temp[] = new int[2];
+        temp[0] = (int) currentPos.toCharArray()[0];
+        temp[1] = 65 - ((int) currentPos.toCharArray()[1]);
+        return temp;}
 
     @Override
     public String getCurrentPos() {
@@ -30,6 +33,11 @@ public class Rook implements Piece{
     @Override
     public void setCurrentPos(String currentPos) {
         this.currentPos = currentPos;
+    }
+
+    @Override
+    public void setIntialPos(int i, int j) {
+        this.intialPos = (char) (i+1)+ ""+ (char)(j+65);
     }
 
     @Override

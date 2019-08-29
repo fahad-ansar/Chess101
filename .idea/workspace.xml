@@ -2,53 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bed3bc9-0510-4d5c-8fc6-06a4f1186cb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/TBUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMLs/Initial.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/UMLs/Initial.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Controller/MovesLimit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Controller/MovesLimit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/InvalidInputException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/InvalidInputException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Bishop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/GenericMovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/GenericMovement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/King.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Knight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pawn.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Piece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/PieceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/PieceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/PiecePoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/PiecePoints.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Queen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Rook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/TeamA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/TeamA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/TeamB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/TeamB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/NotDecided/GenericMovement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/NotDecided/GetAllMovesPre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/NotDecided/Move.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/NotDecided/MovesAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/RacistException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/RacistException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/View/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/View/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/View/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bishop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/GenericMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/GenericMovement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/King.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PieceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PiecePoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PiecePoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/TeamA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/TeamA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotDecided/GenericMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/GenericMovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotDecided/GetAllMovesPre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/GetAllMovesPre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotDecided/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotDecided/MovesAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesAlgorithm.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,9 +73,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Board">
+  <component name="RunManager" selected="Application.GenericMovement">
     <configuration name="Board" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Model.Board" />
+      <module name="Chess101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericMovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.GenericMovement" />
       <module name="Chess101" />
       <extension name="coverage">
         <pattern>
@@ -136,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMovement" />
         <item itemvalue="Application.Board" />
         <item itemvalue="Application.Model" />
         <item itemvalue="Application.Main" />
@@ -172,6 +162,7 @@
       <workItem from="1565744724054" duration="49000" />
       <workItem from="1566882928946" duration="8141000" />
       <workItem from="1566962015467" duration="8128000" />
+      <workItem from="1567059707182" duration="10237000" />
     </task>
     <servers />
   </component>

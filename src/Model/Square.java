@@ -11,7 +11,9 @@ public class Square {
 
     public void setPiece(Piece piece) {this.piece = piece;}
 
-    public void setIndex(String index){this.index = index;}
+    public void setIndex(String index){
+        this.index = index;
+    }
 
     public String getIndex(){return index;}
 
