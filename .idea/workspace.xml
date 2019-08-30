@@ -2,29 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bed3bc9-0510-4d5c-8fc6-06a4f1186cb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMBishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMKing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMPawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMRook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/MovesGeneration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMLs/Initial.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/UMLs/Initial.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMLs/UML- InProgress -03" beforeDir="false" afterPath="$PROJECT_DIR$/UMLs/UML- InProgress -03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Bishop.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/GenericMovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/GenericMovement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/King.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/GenericMovement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/GetAllMovesPre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Knight.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Piece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/MovesAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/PieceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/PieceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Rook.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/TeamA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/TeamB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Bishop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/GenericMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/GenericMovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/GenericMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/Generation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/GetAllMovesPre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/MovesAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Teams/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/TeamA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Teams/TeamA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/TeamB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Teams/TeamB.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +59,18 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Done">
+      <favorite_root url="Model.Bishop" module="Chess101" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+      <favorite_root url="Model.Team" module="Chess101" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,13 +103,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericMovement">
+  <component name="RunManager" selected="Application.Controller">
     <configuration name="Board" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Model.Board" />
       <module name="Chess101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Model.*" />
+          <option name="PATTERN" value="Model.MovesGeneration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Model.GenericMovement" />
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller.Controller" />
       <module name="Chess101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Model.*" />
+          <option name="PATTERN" value="Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.MovesGeneration.Generation" />
+      <module name="Chess101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.MovesGeneration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +158,7 @@
       <module name="Chess101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Model.*" />
+          <option name="PATTERN" value="Model.MovesGeneration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,7 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericMovement" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.Generation" />
         <item itemvalue="Application.Board" />
         <item itemvalue="Application.Model" />
         <item itemvalue="Application.Main" />
@@ -163,6 +207,7 @@
       <workItem from="1566882928946" duration="8141000" />
       <workItem from="1566962015467" duration="8128000" />
       <workItem from="1567059707182" duration="10237000" />
+      <workItem from="1567142106203" duration="6087000" />
     </task>
     <servers />
   </component>
@@ -187,8 +232,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Model/Board.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller/Controller.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Model/Model.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Model/Board.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Model/Model.java</url>
+          <line>48</line>
+          <properties class="Model.Model" method="printBoardState">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

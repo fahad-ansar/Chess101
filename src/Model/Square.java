@@ -1,5 +1,7 @@
 package Model;
 
+import Model.Pieces.Piece;
+
 public class Square {
     private String color = null;
     private String index = "";

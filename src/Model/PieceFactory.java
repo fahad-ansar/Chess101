@@ -1,5 +1,8 @@
 package Model;
 
+import Model.Pieces.*;
+import Model.Teams.Team;
+
 public class PieceFactory {
 
     public Piece create(String piece, Team team) {

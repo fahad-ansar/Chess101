@@ -1,8 +1,12 @@
 package Model;
 
 
+import Model.Teams.TeamA;
+import Model.Teams.TeamB;
+
 public class Board {
 
+    //primitive types
     private Square[][] ground = new Square[8][8];
     private TeamA teamA = new TeamA();
     private TeamB teamB = new TeamB();
@@ -10,29 +14,41 @@ public class Board {
     private static Board singletons = null;
 
 
-    public Board() {
-//        teamA.setName("Fahad");
-//        teamB.setName("Param");
-//        intialize();
-//        initialPieces();
-//
-//        System.out.println();
-//        printBoard();
-//        printBoard();
-    }
-
-
+    /*
+    * It...
+    * @return an instance of board if not instantiated, makes and returns
+    *
+    * */
     public static Board getInstance(){
         if(singletons == null ) singletons = new Board();
         return singletons;
     }
 
-    //chk if piece is null
-    public void movePiece(int i1, int j1, int i2, int j2) {
-            ground[i2][j2].setPiece(ground[i1][j1].getPiece());
-            ground[i1][j1].setPiece(null);
+    //returns the whole board
+    public Square[][] getBoard(){
+        return ground;
     }
 
+    //Purpose: Simply it prints the whole board on the screen
+    public void printBoard() {
+        System.out.println("                                               " + teamA.getName());
+        System.out.println("                                           --------------");
+        for (int i = 0; i < ground.length; i++) {
+            for (int j = 0; j < ground.length; j++) {
+                if (ground[i][j].getPiece() != null) {
+                    System.out.print(ground[i][j].getPiece().getName() + " | ");
+                } else {
+                    System.out.print((ground[i][j].getColor().equals("white")) ? "    Θ     | " : "    Ξ     | ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("                                            -------------");
+        System.out.println("                                               " + teamB.getName());
+    }
+
+
+    //Purpose: Initialize all the pieces to their initial positions
     public void initialPieces() {
         //Pawn
         for (int i = 0; i < 8; i++) {
@@ -92,6 +108,67 @@ public class Board {
 
     }
 
+    //Purpose: Intialize whole board with square without pieces
+    public void intialize() {
+        for (int i = 0; i < ground.length; i++) {
+            for (int j = 0; j < ground.length; j++) {
+                ground[i][j] = new Square();
+                ground[i][j].setIndex((ground.length - i) + "" + (char) (65 + j));
+                if ((i + j) % 2 == 0) {
+                    ground[i][j].setColor("BLACK");
+                } else {
+                    ground[i][j].setColor("WHITE");
+                }
+//                System.out.print(ground[i][j].getIndex() + " | ");
+            }
+//            System.out.println();
+        }
+        System.out.println("Board intialized!");
+    }
+
+
+    /*
+    * Purpose: To make a piece move from one index to the other index
+    *
+    * @param indexes of first position , indexes of destination
+    * */
+    public void movePiece(int i1, int j1, int i2, int j2) {
+            ground[i2][j2].setPiece(ground[i1][j1].getPiece());
+            ground[i1][j1].setPiece(null);
+    }
+
+
+    /*
+     * It returns 'teamA'
+     *
+     * @return TeamA
+     */
+    public TeamA getTeamA() {
+        return teamA;
+    }
+
+    /*
+     * It returns 'teamB'
+     *
+     * @return TeamB
+     */
+    public TeamB getTeamB() {
+        return teamB;
+    }
+
+
+    //This method sets the name of 'teamB'
+    public void setTeamB(String teamB) {
+        this.teamB.setName(teamB);
+    }
+
+    //This method sets the name of 'teamB'
+    public void setTeamA(String teamA) {
+        this.teamA.setName(teamA);
+    }
+
+
+    //These methods are extra operation might be using it
     public int isNull() {
         int jk = 1;
         for (int i = 0; i < 8; i++) {
@@ -112,60 +189,6 @@ public class Board {
                 ground[i][j].piece = null;
             }
         }
-    }
-
-    public Square[][] getBoard() {
-        return ground;
-    }
-
-    public TeamA getTeamA() {
-        return teamA;
-    }
-
-    public void setTeamA(String teamA) {
-        this.teamA.setName(teamA);
-    }
-
-    public TeamB getTeamB() {
-        return teamB;
-    }
-
-    public void setTeamB(String teamB) {
-        this.teamB.setName(teamB);
-    }
-
-    public void printBoard() {
-        System.out.println("                                               " + teamA.getName());
-        System.out.println("                                           --------------");
-        for (int i = 0; i < ground.length; i++) {
-            for (int j = 0; j < ground.length; j++) {
-                if (ground[i][j].getPiece() != null) {
-                    System.out.print(ground[i][j].getPiece().getName() + " | ");
-                } else {
-                    System.out.print((ground[i][j].getColor().equals("white")) ? "    Θ     | " : "    Ξ     | ");
-                }
-            }
-            System.out.println();
-        }
-        System.out.println("                                            -------------");
-        System.out.println("                                               " + teamB.getName());
-    }
-
-    public void intialize() {
-        for (int i = 0; i < ground.length; i++) {
-            for (int j = 0; j < ground.length; j++) {
-                ground[i][j] = new Square();
-                ground[i][j].setIndex((ground.length - i) + "" + (char) (65 + j));
-                if ((i + j) % 2 == 0) {
-                    ground[i][j].setColor("BLACK");
-                } else {
-                    ground[i][j].setColor("WHITE");
-                }
-//                System.out.print(ground[i][j].getIndex() + " | ");
-            }
-//            System.out.println();
-        }
-        System.out.println("Board intialized!");
     }
 
 

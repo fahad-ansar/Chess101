@@ -1,74 +1,53 @@
 package Model;
 
 
+import Model.MovesGeneration.MovesAlgorithm;
+
 public class Model {
 
 
 
-    //Initializing it with initial positions and also set inside pieces
+
+    //All the needed primitives
+    Board board;
 
 
-    //Todo
-    /*
-     *
-     * make extensive moving methods for each piece type in Model and this class
-     * Fill method of  move algorithm type
-     * make move algorithm strategic method
-     * comment all done classes and arrange them in readable format
-     * Plan flow
-     * make methods of TBUI
-     * Setup structures of MVC
-     * //KillMode Feature
-     * */
-
-
-    //In 'H' section i made move algorithm or ablest prepared the algo
-
-    Board board = Board.getInstance();
+    //Not working now might be adding its functionality later
     MovesAlgorithm moveCollector =  new MovesAlgorithm();
 
+
     public Model(){
-
+        board = Board.getInstance();
     }
 
-    //teamA
-    public void moveKnightA(){
 
-    }
-    public void moveBishopA(){
-
-    }
-    public void moveKingA(){
-
-    }
-    public void movePawnA(){
-
-    }
-    public void moveQueenA(){
-
-    }
-    public void moveRookA(){
-
+    //using method of board to move a piece
+    public void moveBoardPiece(int i_1, int j_1, int i_2, int j_2){
+        board.movePiece(i_1,j_1,i_2,j_2);
     }
 
-    //teamB
-    public void moveKnightB(){
 
+    //sets all pieces to their original position *****Might be needing a small fix
+    public void setBoardPieces(){
+        board.intialize();
+        board.initialPieces();
     }
-    public void moveBishopB(){
 
+    //It returns the main chess board
+    public Square[][] getboard(){
+        return board.getBoard();
     }
-    public void moveKingB(){
 
+
+    //sets the team names using board method together
+    public void setTeamNames(String tA, String tB){
+        board.setTeamA(tA);
+        board.setTeamB(tB);
     }
-    public void movePawnB(){
 
-    }
-    public void moveQueenB(){
-
-    }
-    public void moveRookB(){
-
+    //Simply prints the board
+    public void printBoardState(){
+        board.printBoard();
     }
 
 }
