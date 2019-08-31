@@ -9,19 +9,19 @@ This is a game i am creating with pure object oriented approach under my proffes
 
 ### UnderConstruction!
    Features:
-      * Graphical and Text Based User Interface
-      * Moves Choice from pre generated moves of selected piece
-      * Kill Mode
-      * Limit of moves
-      * Points on every kill and player with more points can win
-      * Bonus Points if you kill a piece on your colour square
-      * Racist Exception, So, No Racism!
+   * Graphical and Text Based User Interface
+   * Moves Choice from pre generated moves of selected piece
+   * Kill Mode
+   * Limit of moves
+   * Points on every kill and player with more points can win
+   * Bonus Points if you kill a piece on your colour square
+   * Racist Exception, So, No Racism!
       
    Design Patterns used:
-      * Factory Pattern
-      * Singleton Pattern
-      * Stategy Pattern
-      * MVC Pattern
+   * Factory Pattern
+   * Singleton Pattern
+   * Stategy Pattern
+   * MVC Pattern
 
 
 
