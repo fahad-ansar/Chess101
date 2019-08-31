@@ -16,6 +16,7 @@ public class Controller {
     //whole system needs optimization
     //set scoring system, for now every kill 100
     //Make use of exceptions
+    //Link UML with code
 
     MovesAlgorithm movesAlgorithm = new MovesAlgorithm();
     MovesLimit movesLimit;
