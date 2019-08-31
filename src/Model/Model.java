@@ -2,6 +2,7 @@ package Model;
 
 
 import Model.MovesGeneration.MovesAlgorithm;
+import Model.Teams.Team;
 
 public class Model {
 
@@ -43,6 +44,17 @@ public class Model {
     public void setTeamNames(String tA, String tB){
         board.setTeamA(tA);
         board.setTeamB(tB);
+    }
+
+    public void flipBoard(){
+        board.upsideDown();
+    }
+
+    public Team getTeam(int a){
+        Team res = null;
+        if(a==0) res = board.getTeamA();
+        else if(a==1) res = board.getTeamB();
+        return res;
     }
 
     //Simply prints the board

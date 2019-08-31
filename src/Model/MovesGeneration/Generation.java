@@ -1,17 +1,26 @@
 package Model.MovesGeneration;
 
 
+import java.util.ArrayList;
+
+/*
+* All movement finding classe only searches for empty boxes , insert
+* the filled ones also!
+* */
+
+
 public class Generation {
 
 
-    /**
-     * Made some algorithms just need to add the 'kill the filled ones' algorithm
-     *
-     *
-     *
-     * This is the context class so make it look and work like one!
-     *
-     */
+    MovesGeneration movesGeneration;
+
+    public void setStategy(MovesGeneration gen){
+        movesGeneration=gen;
+    }
+
+    public ArrayList<Move> generate(int i, int j){
+        return movesGeneration.getMoves(i,j);
+    }
 
 }
 

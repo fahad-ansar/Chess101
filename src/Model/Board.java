@@ -1,6 +1,7 @@
 package Model;
 
 
+import Model.Pieces.Piece;
 import Model.Teams.TeamA;
 import Model.Teams.TeamB;
 
@@ -12,6 +13,7 @@ public class Board {
     private TeamB teamB = new TeamB();
     private PieceFactory factory = new PieceFactory();
     private static Board singletons = null;
+    private int turnC =0;
 
 
     /*
@@ -31,9 +33,14 @@ public class Board {
 
     //Purpose: Simply it prints the whole board on the screen
     public void printBoard() {
-        System.out.println("                                               " + teamA.getName());
+        if(turnC==0) System.out.println("                                               " + teamA.getName());
+        else if(turnC==1) System.out.println("                                               " + teamB.getName());
+
         System.out.println("                                           --------------");
+        System.out.println("        0           1           2           3           4           5           6           7");
+        System.out.println();
         for (int i = 0; i < ground.length; i++) {
+            System.out.print(i+"   ");
             for (int j = 0; j < ground.length; j++) {
                 if (ground[i][j].getPiece() != null) {
                     System.out.print(ground[i][j].getPiece().getName() + " | ");
@@ -44,7 +51,9 @@ public class Board {
             System.out.println();
         }
         System.out.println("                                            -------------");
-        System.out.println("                                               " + teamB.getName());
+        if(turnC==0) System.out.println("                                               " + teamB.getName());
+        else if(turnC==1) System.out.println("                                               " + teamA.getName());
+
     }
 
 
@@ -132,9 +141,11 @@ public class Board {
     *
     * @param indexes of first position , indexes of destination
     * */
-    public void movePiece(int i1, int j1, int i2, int j2) {
+    public Piece movePiece(int i1, int j1, int i2, int j2) {
+            Piece temp = ground[i2][j2].getPiece();
             ground[i2][j2].setPiece(ground[i1][j1].getPiece());
             ground[i1][j1].setPiece(null);
+            return temp;
     }
 
 
@@ -165,6 +176,28 @@ public class Board {
     //This method sets the name of 'teamB'
     public void setTeamA(String teamA) {
         this.teamA.setName(teamA);
+    }
+
+
+    /*
+    * Flips the board upside down
+    * */
+    public void upsideDown(){
+        Square groundTemp[][] = new Square[8][8];
+        for (int i = 0; i <8 ; i++) {
+            for (int j = 0; j <8 ; j++) {
+                groundTemp[i][j] = ground[i][j];
+            }
+        }
+
+        for (int i = 0; i <8 ; i++) {
+            for (int j = 0; j <8 ; j++) {
+                ground[(ground.length-1)-i][(ground[i].length-1)-j] =groundTemp[i][j];
+            }
+        }
+
+        if(turnC==0) turnC=1;
+        else if(turnC==1) turnC=0;
     }
 
 

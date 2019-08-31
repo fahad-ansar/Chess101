@@ -6,12 +6,29 @@ public class MovesAlgorithm {
 
     Generation genMove = new Generation();
 
-    public ArrayList<Move> getMoves(int i, int j){
-        ArrayList<Move> result = new ArrayList<Move>();
+    public ArrayList<Move> genMovesBishop(int i, int j){
+        genMove.setStategy(new GMBishop());
+        return genMove.generate(i,j);
+    }
 
-//        result.addAll(genMove.getAllMoves());
+    public ArrayList<Move> genMovesKing(int i, int j){
+        genMove.setStategy(new GMKing());
+        return genMove.generate(i,j);
+    }
 
-        return result;
+    public ArrayList<Move> genMovesKnight(int i, int j){
+        genMove.setStategy(new GMKnight());
+        return genMove.generate(i,j);
+    }
+
+    public ArrayList<Move> genMovesPawn(int i, int j){
+        genMove.setStategy(new GMPawn());
+        return genMove.generate(i,j);
+    }
+
+    public ArrayList<Move> genMovesRook(int i, int j){
+        genMove.setStategy(new GMRook());
+        return genMove.generate(i,j);
     }
 
 }
