@@ -6,6 +6,7 @@ import Model.Teams.Team;
 
 public interface Piece {
     public String getName();
+    public char getInitial();
     public int[] getIntialPos();
     public String getCurrentPos();
     public void setCurrentPos(String currentPos);

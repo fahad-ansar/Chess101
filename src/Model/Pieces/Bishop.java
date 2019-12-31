@@ -20,6 +20,11 @@ public class Bishop implements Piece {
         return killwill;
     }
 
+    @Override
+    public char getInitial() {
+        return 'b';
+    }
+
     public Bishop(Team team){
         this.team = team;
     }

@@ -23,6 +23,11 @@ public class Rook implements Piece {
     }
 
     @Override
+    public char getInitial() {
+        return 'r';
+    }
+
+    @Override
     public int[] getIntialPos() { int temp[] = new int[2];
         temp[0] = (int) currentPos.toCharArray()[0];
         temp[1] = 65 - ((int) currentPos.toCharArray()[1]);

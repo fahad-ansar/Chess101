@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bed3bc9-0510-4d5c-8fc6-06a4f1186cb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMLs/Initial.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/UMLs/Initial.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Rook.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,16 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Chess101" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Model" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Model.Model" />
       <module name="Chess101" />
@@ -120,13 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="functionsWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionsWindows" />
+      <module name="Chess101" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.functionsWindows" />
         <item itemvalue="Application.Generation" />
         <item itemvalue="Application.Board" />
         <item itemvalue="Application.Model" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +170,11 @@
       <workItem from="1567142106203" duration="6087000" />
       <workItem from="1567213279523" duration="19105000" />
       <workItem from="1567234806605" duration="46000" />
+      <workItem from="1567625888086" duration="108000" />
+      <workItem from="1571027617514" duration="3289000" />
+      <workItem from="1571455333091" duration="12320000" />
+      <workItem from="1573442217116" duration="329000" />
+      <workItem from="1577833324088" duration="1201000" />
     </task>
     <servers />
   </component>

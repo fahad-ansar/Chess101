@@ -21,6 +21,11 @@ public class Pawn implements Piece {
     }
 
     @Override
+    public char getInitial() {
+        return 'p';
+    }
+
+    @Override
     public int[] getIntialPos() {
         int temp[] = new int[2];
         temp[0] = (int) currentPos.toCharArray()[0];

@@ -22,6 +22,11 @@ public class Knight implements Piece {
     }
 
     @Override
+    public char getInitial() {
+        return 'k';
+    }
+
+    @Override
     public int[] getIntialPos() {
         int temp[] = new int[2];
         temp[0] = (int) currentPos.toCharArray()[0];

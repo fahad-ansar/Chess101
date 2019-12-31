@@ -14,6 +14,11 @@ public class Queen implements Piece {
         return t.charAt(0)+"" + t.charAt(2)  + " -Queen";
     }
 
+    @Override
+    public char getInitial() {
+        return 'q';
+    }
+
     public PiecePoints getKillwill(){
         return killwill;
     }
