@@ -11,7 +11,7 @@ public class Pawn implements Piece {
 
     public String getName(){
         String t = team.getName().toString();
-        return t.charAt(0)+"" + t.charAt(2) + " -Pawn ";
+        return t.charAt(0)+"" + t.charAt(2) + " -Pawn "+getTeam().getinit();
     }
     public PiecePoints getKillwill(){
         return killwill;

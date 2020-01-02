@@ -11,7 +11,7 @@ public class Queen implements Piece {
 
     public String getName(){
         String t = team.getName().toString();
-        return t.charAt(0)+"" + t.charAt(2)  + " -Queen";
+        return t.charAt(0)+"" + t.charAt(2)  + " -Queen"+getTeam().getinit();
     }
 
     @Override

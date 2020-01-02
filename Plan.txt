@@ -15,12 +15,12 @@ Points:
 		6. Pawn   : forward or diagnal - first move 1 or 2 - rest of game 1
 
 	- Points:
-		1. King   : WON!
-		2. Queen  : 9 points
-		3. Rook   : 5 points
-		4. Bishop : 3.5 points
-		5. Knight : 3 points
-		6. Pawn   :  1 points
+		1. King  c : WON!
+		2. Queen q : 9 points
+		3. Rook  r : 5 points
+		4. Bishop b : 3.5 points
+		5. Knight k : 3 points
+		6. Pawn   p :  1 points
 
 	- Seqeunce:
 		1. King   :  '*K*'
@@ -36,6 +36,7 @@ Points:
 
 	- Protect the king at all cost
 	- Say checkmate when any king is about to die in the game
+	- If killed in opposite color u will get points
 	- when two pawns are infront they can do anything except they can kill anyone diagonally
 	- when a pawn reaches in kings row it can revive a peice on its place.That would be apart of 
 	  who died or who is one the board which means you have doubles of any peices other than king.

@@ -31,4 +31,9 @@ public class MovesAlgorithm {
         return genMove.generate(i,j);
     }
 
+    public ArrayList<Move> genMovesQeen(int i, int j){
+        genMove.setStategy(new GMQueen());
+        return genMove.generate(i,j);
+    }
+
 }

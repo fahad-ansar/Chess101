@@ -13,11 +13,9 @@ public class Board {
     private TeamB teamB = new TeamB();
     private PieceFactory factory = new PieceFactory();
     private static Board singletons = null;
-    private int turnC =0;
-
 
     /*
-    * It...
+    * It return the only instance of the board
     * @return an instance of board if not instantiated, makes and returns
     *
     * */
@@ -26,18 +24,19 @@ public class Board {
         return singletons;
     }
 
+
     //returns the whole board
     public Square[][] getBoard(){
         return ground;
     }
 
     //Purpose: Simply it prints the whole board on the screen
-    public void printBoard() {
-        if(turnC==0) System.out.println("                                               " + teamA.getName());
-        else if(turnC==1) System.out.println("                                               " + teamB.getName());
+    public void printBoard(int turnC) {
+        if(turnC==1) System.out.println("\n                                               " + teamA.getName());
+        else if(turnC==0) System.out.println("                                               " + teamB.getName());
 
-        System.out.println("                                           --------------");
-        System.out.println("        0           1           2           3           4           5           6           7");
+        System.out.println("                                           --------------\n");
+        System.out.println("         0            1            2            3            4            5            6            7");
         System.out.println();
         for (int i = 0; i < ground.length; i++) {
             System.out.print(i+"   ");
@@ -45,14 +44,14 @@ public class Board {
                 if (ground[i][j].getPiece() != null) {
                     System.out.print(ground[i][j].getPiece().getName() + " | ");
                 } else {
-                    System.out.print((ground[i][j].getColor().equals("white")) ? "    Θ     | " : "    Ξ     | ");
+                    System.out.print((ground[i][j].getColor().equals("white")) ? "    Θ      | " : "    Ξ      | ");
                 }
             }
             System.out.println();
         }
-        System.out.println("                                            -------------");
-        if(turnC==0) System.out.println("                                               " + teamB.getName());
-        else if(turnC==1) System.out.println("                                               " + teamA.getName());
+        System.out.println("\n                                            -------------");
+        if(turnC==1) System.out.println("                                               " + teamB.getName());
+        else if(turnC==0) System.out.println("                                               " + teamA.getName());
 
     }
 
@@ -60,12 +59,12 @@ public class Board {
     //Purpose: Initialize all the pieces to their initial positions
     public void initialPieces() {
         //Pawn
-        for (int i = 0; i < 8; i++) {
-            ground[1][i].setPiece(factory.create("P", teamA));
-            ground[6][i].setPiece(factory.create("P", teamB));
-            ground[1][i].getPiece().setIntialPos(1,i);
-            ground[6][i].getPiece().setIntialPos(6,i);
-        }
+//        for (int i = 0; i < 8; i++) {
+//            ground[1][i].setPiece(factory.create("P", teamA));
+//            ground[6][i].setPiece(factory.create("P", teamB));
+//            ground[1][i].getPiece().setIntialPos(1,i);
+//            ground[6][i].getPiece().setIntialPos(6,i);
+//        }
         //Rook
         ground[0][0].setPiece(factory.create("R", teamA));
         ground[0][7].setPiece(factory.create("R", teamA));
@@ -128,9 +127,7 @@ public class Board {
                 } else {
                     ground[i][j].setColor("WHITE");
                 }
-//                System.out.print(ground[i][j].getIndex() + " | ");
             }
-//            System.out.println();
         }
         System.out.println("Board intialized!");
     }
@@ -182,7 +179,7 @@ public class Board {
     /*
     * Flips the board upside down
     * */
-    public void upsideDown(){
+    public void upsideDown(int turnC){
         Square groundTemp[][] = new Square[8][8];
         for (int i = 0; i <8 ; i++) {
             for (int j = 0; j <8 ; j++) {

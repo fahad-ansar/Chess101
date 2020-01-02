@@ -14,12 +14,15 @@ public class Generation {
 
     MovesGeneration movesGeneration;
 
+    ArrayList<Move> temp = new ArrayList<Move>();
+
     public void setStategy(MovesGeneration gen){
         movesGeneration=gen;
     }
 
     public ArrayList<Move> generate(int i, int j){
-        return movesGeneration.getMoves(i,j);
+        temp = movesGeneration.getMoves(i,j);
+        return temp;
     }
 
 }

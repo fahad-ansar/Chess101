@@ -11,7 +11,7 @@ public class Rook implements Piece {
 
     public String getName(){
         String t = team.getName().toString();
-        return t.charAt(0)+"" + t.charAt(2) + " -Rook ";
+        return t.charAt(0)+"" + t.charAt(2) + " -Rook "+getTeam().getinit();
     }
 
     public PiecePoints getKillwill(){

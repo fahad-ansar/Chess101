@@ -13,7 +13,7 @@ public class Bishop implements Piece {
 
     public String getName(){
         String t = team.getName();
-        return  t.charAt(0)+""+ t.charAt(2) + "-Bishop";
+        return  t.charAt(0)+""+ t.charAt(2) + "-Bishop"+getTeam().getinit();
     }
 
     public PiecePoints getKillwill(){

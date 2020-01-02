@@ -2,22 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bed3bc9-0510-4d5c-8fc6-06a4f1186cb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMQueen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMLs/Initial.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/UMLs/Initial.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plan.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMBishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMBishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMKing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMKing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMKnight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMKnight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMPawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMPawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMRook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/GMRook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/MovesAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/MovesGeneration/MovesAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Pieces/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Teams/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Teams/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Teams/TeamA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Teams/TeamA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/Model/Teams/TeamB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/Model/Teams/TeamB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess101/View/TBUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess101/View/TBUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/GMBishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMBishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/GMKing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMKing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/GMKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMKnight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/GMPawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMPawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/GMRook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/GMRook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/Generation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/Generation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MovesGeneration/MovesAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MovesGeneration/MovesAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Bishop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/King.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Pawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Teams/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Teams/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Teams/TeamA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Teams/TeamA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Teams/TeamB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Teams/TeamB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/TBUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/TBUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -45,6 +93,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -174,7 +223,8 @@
       <workItem from="1571027617514" duration="3289000" />
       <workItem from="1571455333091" duration="12320000" />
       <workItem from="1573442217116" duration="329000" />
-      <workItem from="1577833324088" duration="1201000" />
+      <workItem from="1577833324088" duration="27436000" />
+      <workItem from="1577914913557" duration="9699000" />
     </task>
     <servers />
   </component>
@@ -197,18 +247,48 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Model/Board.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Model/Model.java</url>
-          <line>60</line>
+          <line>104</line>
           <properties class="Model.Model" method="printBoardState">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller/Controller.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller/Controller.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller/Controller.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Model/MovesGeneration/GMQueen.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Model/Model.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Model/MovesGeneration/GMPawn.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Model/Model.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

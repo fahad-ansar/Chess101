@@ -12,7 +12,7 @@ public class Knight implements Piece {
 
     public String getName(){
         String t = team.getName().toString();
-        return t.charAt(0)+"" + t.charAt(2)  + "-Knight";
+        return t.charAt(0)+"" + t.charAt(2)  + "-Knight"+getTeam().getinit();
     }
     public PiecePoints getKillwill(){
         return killwill;
