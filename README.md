@@ -1,8 +1,9 @@
 # Chess101
-The Game of Chess that you haven't played yet!, Because i haven't created it yet! :D
+The Game of Chess that you haven't played yet!
+IT works Atleast you can play now (without complete rules)
 
 ### Loading..
-   [##########__________] 50% Done
+   [################____] 80% Done
 
 ### Description:
 This is a game i am creating with pure object oriented approach under my proffesors(Mr. Robson De Grande) guidance.
