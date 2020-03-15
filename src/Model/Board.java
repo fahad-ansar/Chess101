@@ -58,13 +58,12 @@ public class Board {
 
     //Purpose: Initialize all the pieces to their initial positions
     public void initialPieces() {
-        //Pawn
-//        for (int i = 0; i < 8; i++) {
-//            ground[1][i].setPiece(factory.create("P", teamA));
-//            ground[6][i].setPiece(factory.create("P", teamB));
-//            ground[1][i].getPiece().setIntialPos(1,i);
-//            ground[6][i].getPiece().setIntialPos(6,i);
-//        }
+        for (int i = 0; i < 8; i++) {
+            ground[1][i].setPiece(factory.create("P", teamA));
+            ground[6][i].setPiece(factory.create("P", teamB));
+            ground[1][i].getPiece().setIntialPos(1,i);
+            ground[6][i].getPiece().setIntialPos(6,i);
+        }
         //Rook
         ground[0][0].setPiece(factory.create("R", teamA));
         ground[0][7].setPiece(factory.create("R", teamA));

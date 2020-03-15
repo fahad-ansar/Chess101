@@ -65,6 +65,10 @@ public class Controller {
                 }
                 System.out.println("Please dont kill your own piece, Traitor!, \nTry Again!\n");
                 inpt = tbinter.moveInput("piece you want to move","PIECE SELECTION");
+
+
+                inpt2 = tbinter.moveInput("destination","DESTINATION");
+
             }
 
 
@@ -88,7 +92,7 @@ public class Controller {
                     inpt = tbinter.moveInput("piece you want to move", "PIECE SELECTION");
                 }
 
-                //If selected piece is not mine
+                //If selected piece is not mineprint
                 while (compare(model.getboard()[inpt[0]][inpt[1]].getPiece().getTeam().getinit(), (turn == 0) ? 'B' : 'W') != 0){
                     System.out.println("Stop operating opposite team pieces, \nTry Again!\n");
                     inpt = tbinter.moveInput("piece you want to move","PIECE SELECTION");
